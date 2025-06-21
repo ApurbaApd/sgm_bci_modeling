@@ -19,8 +19,5 @@ After completing the set-up for conda environment and `spectrome` path, you may 
  - `../spectrome/notebooks`: contains 15 jupyter notebooks, with all the analysis done on the data.
  - `../spectrome/scripts`: It contains the `run_local_model_mi_apd.py`, `run_local_model_mi_apd.py` are the simulation of frequency spectrums with various values of the parameters in different bounds for the HCP template connectome in the case of MI and Rest, respectively. 
 
- - `../spectrome/data_brain_plotting`: contains intermediate data and jupyter notebook for brain plots.
-    - `mean80_fibercount/length.csv`: HCP template connectome and distance matrix.
-    - `individual_connectomes_reordered.nc`: individual subject's connectivity matrices.
-    - `individual_psd_reordered_matlab.nc`: individual subject's E/MEG spectra.
+ - `../spectrome/data_brain_plotting`: contains jupyter notebook for brain plots.
     - 'plot_brain_mne.ipynb`: For plotting brain regions.
