@@ -1,4 +1,4 @@
-## set up
+## Set up
 First clone the environment to your computer, either download this repo as a `.zip` file or `git clone https://github.com/ApurbaApd/sgm_bci_modeling.git`.
 
 Set up a [conda environment](https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html) if you do not have all the packages/compatible versions. The list of dependencies is listed in `environment.yml`.
