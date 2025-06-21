@@ -177,7 +177,7 @@ if __name__ == '__main__':
 
     start = time.time()
     #Multiprocessing pool with 19 processes
-    pool = multiprocessing.Pool(22)
+    pool = multiprocessing.Pool(19)
     print("Starting optimization of regional data", flush=True)
     func = partial(optsgm_st, ind_psd, fvec)
 
