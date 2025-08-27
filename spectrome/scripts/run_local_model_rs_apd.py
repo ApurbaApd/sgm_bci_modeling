@@ -33,7 +33,7 @@ fvec = np.squeeze(bci_rest_mi["Freqs"])[3:30]
 
 print("Loaded data", flush= True)
 
-# Initial guess for parameters gei, gii, taue, taui
+# Initial guess for parameters gei, gii, taue, taui, pw
 allx0 = np.array([0.4, 1, 17, 17, 0])
 
 # Parameter bounds--for RS
